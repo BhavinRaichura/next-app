@@ -4,11 +4,11 @@ import PosterUISmall from '../ui/PosterUISmall'
 import revalidationTags from '@/revalidation/tags'
 
 const Highlights = async () => {
-  /*
-  const reqRecent = await fetch(`http://localhost:3000/api/article?pagesize=${6}`,{cache:'force-cache', next:{tags: [revalidationTags.NEW_ARTICLE, revalidationTags.DELETE_ARTICLE]}})
+  
+  const reqRecent = await fetch(`http://127.0.0.1:3000/api/article?pagesize=${6}`,{cache:'force-cache', next:{tags: [revalidationTags.NEW_ARTICLE, revalidationTags.DELETE_ARTICLE]}})
   const recentPost = await reqRecent.json()
   //console.log(recentPost)
-*/
+
   return (
     <footer className=' bg-zinc-900 h-max w-full py-10 '>
     <div className='  '> highlight
