@@ -1,11 +1,14 @@
 "use client";
+/*
 import { useDebounce } from "@uidotdev/usehooks";
 import { useRouter, useSearchParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { FaSearch } from "react-icons/fa";
+*/
+
 
 const SearchBar = ({ searchedQuery }) => {
-  const searchParams = useSearchParams()
+  /*const searchParams = useSearchParams()
   const router = useRouter();
   const page = Number(searchParams.get("page")) || 1
   const q = searchParams.get("q")
@@ -43,7 +46,10 @@ const SearchBar = ({ searchedQuery }) => {
         <button className=" m-2 text-base px-3 py-1 text-white bg-gray-500 hover:bg-gray-950 rounded-md" htmlFor="search" >Search</button>
       </div>
     </form>
-  );
+  );*/
+  return (
+    <div>search baar</div>
+    )
 };
 
-export default SearchBar;
+export default SearchBar;*/
