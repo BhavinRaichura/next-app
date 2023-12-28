@@ -52,4 +52,4 @@ const SearchBar = ({ searchedQuery }) => {
     )
 };
 
-export default SearchBar;*/
+export default SearchBar;
